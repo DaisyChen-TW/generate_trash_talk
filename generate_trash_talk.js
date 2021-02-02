@@ -29,13 +29,13 @@ function generateTrashTalk(options) {
 
   //試試看else if的方式
   if (options === 'engineer') {
-    return (`身為一位工程師，${engineerTask} + ${thePhrace}吧！`)
+    return (`身為一位工程師，${engineerTask}${thePhrace}吧！`)
 
   } else if (options === 'designer'){
-    return (`身為一位設計師，${designerTask} + ${thePhrace}吧！`)
+    return (`身為一位設計師，${designerTask}${thePhrace}吧！`)
 
   } else if (options === 'entrepreneur'){
-    return (`身為一位企業家，${entrepreneurTask} + ${thePhrace}吧！`)
+    return (`身為一位企業家，${entrepreneurTask}${thePhrace}吧！`)
     
   } else {
     return ('請點選任一工作')
