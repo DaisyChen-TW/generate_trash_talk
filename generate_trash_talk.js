@@ -38,7 +38,7 @@ function generateTrashTalk(options) {
     return (`身為一位企業家，${entrepreneurTask}${thePhrace}吧！`)
     
   } else {
-    return ('請點選任一工作')
+    return ('請點選任一圖片')
   }
 
 
